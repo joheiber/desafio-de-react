@@ -72,6 +72,10 @@
   width: 1.5rem;
 }
 
+.iconPuntos:hover{
+  cursor: pointer;
+}
+
 .divUsuariP{width: 100%;
   display: flex;
   justify-content: space-between;
