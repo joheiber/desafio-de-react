@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 import React, { useState } from 'react';
 
 
-export default function Crear({ onCambioCategoría }) {
+export default function Crear({ onCambioCategoria }) {
     
     const [inputValue, setInputValue] = useState("");
 

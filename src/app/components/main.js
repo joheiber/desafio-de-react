@@ -56,7 +56,7 @@ export default function Main() {;
 
   return (
     <main>
-      <Crear onCambioCategoría={setQuery}  />
+      <Crear onCambioCategoria={setQuery}  />
 
       <div>
 
