@@ -29,24 +29,31 @@
   padding-bottom: 1rem;
 }
 
-.divPublicar{
+.divPublicar {
   display: flex;
   justify-content: space-between;
   flex: 1;
   margin-inline-start: 10px;
 }
-.divPublicar > input{
+
+.divPublicar > form{
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-inline-start: 10px;
+}
+.divPublicar > form >input{
   font-size: 1rem;
   width: 80%;
   border: none;
 }
 
-.divPublicar > input:focus {
+.divPublicar > form > input:focus {
   outline: none; 
   border: none;
 }
 
-.divPublicar > button{
+.divPublicar > form > button{
   font-weight:700;
   color: rgb(179, 176, 176);
   background-color: white;
@@ -76,15 +83,31 @@
   cursor: pointer;
 }
 
-.divUsuariP{width: 100%;
+.divUsuariP{
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
+
 .iconP{
   width: 2rem;
 margin: 0 5px 0 0;}
 
 .divUsuariP > div{
+  width: 100%;
+}
+
+
+.informacionUsuario{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.informacionUsuario > div {
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -99,9 +122,16 @@ margin: 0 5px 0 0;}
   width: 80%;
 }
 
+
+
 .divImg > img{ 
   width: 100%;
 border-radius: .5rem; }
+
+.divImg > video{ 
+  width: 100%;
+border-radius: .5rem; }
+
 .pNombre{
   font-weight: 600;
 }
@@ -112,3 +142,7 @@ align-items: center;
 }
 
 .divIcon> div{ margin-inline-end: 1rem;}
+
+#pError{
+  color: red;
+}
