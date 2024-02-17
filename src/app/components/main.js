@@ -25,7 +25,6 @@ export default function Main() {;
       .then((data) => {
         setImagen(data.photos);
         console.log(data.photos)
-        console.log(query)
       })
       .catch((error) => {
         console.error('Error:', error);
@@ -43,7 +42,6 @@ export default function Main() {;
     })
       .then((data) => {
         setVideo(data.videos);
-        console.log(query)
       })
       .catch((error) => {
         console.error('Error:', error);
